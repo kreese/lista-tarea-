@@ -31,7 +31,6 @@ export const crearTodoHtml = (todo) =>{
 }
 
 //eventos
-
 txtInput.addEventListener('keyup', (evento)=>{
     if(evento.keyCode===13 && txtInput.value.length>0){
         const nuevoTodo = new Todo(txtInput.value);
